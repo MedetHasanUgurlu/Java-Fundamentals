@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment="Enumeration" />
+    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment="Enumeration">
+      <change afterPath="$PROJECT_DIR$/src/LambdaExpression/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdaExpression/IMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667818265919</updated>
-      <workItem from="1667818268536" duration="696000" />
+      <workItem from="1667818268536" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="Enumeration">
       <created>1667818947340</created>
@@ -61,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667818947340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enumeration">
+      <created>1667818985743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667818985743</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
