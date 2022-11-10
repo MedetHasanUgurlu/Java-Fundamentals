@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment="Comparator Functional Interface with using Lambda">
-      <change afterPath="$PROJECT_DIR$/src/StreamApi/Driver.java" afterDir="false" />
+    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment="Stream Apı">
+      <change afterPath="$PROJECT_DIR$/src/IO/FileStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LambdaExpression/pack2/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpression/pack2/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +56,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667818265919</updated>
-      <workItem from="1667818268536" duration="7509000" />
+      <workItem from="1667818268536" duration="9431000" />
+      <workItem from="1667833516164" duration="749000" />
+      <workItem from="1667888314624" duration="690000" />
+      <workItem from="1668049737676" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="Enumeration">
       <created>1667818947340</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667821485989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stream Apı">
+      <created>1667826034381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667826034381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +117,7 @@
     <MESSAGE value="Enumeration" />
     <MESSAGE value="Functional Interface" />
     <MESSAGE value="Comparator Functional Interface with using Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator Functional Interface with using Lambda" />
+    <MESSAGE value="Stream Apı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream Apı" />
   </component>
 </project>
