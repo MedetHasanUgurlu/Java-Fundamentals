@@ -15,7 +15,7 @@ public class Main {
 
     static void printConstructors(List<? extends Building> constructors){
         constructors.stream().filter((s)->s.getNumberOfRooms()>1).forEach(System.out::println);
-
+        ///
     }
 
 
