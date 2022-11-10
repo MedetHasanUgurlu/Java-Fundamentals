@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment=".java --&gt; javac compiler --&gt; ByteCode(.class) --&gt;jvm">
-      <change afterPath="$PROJECT_DIR$/src/Advanced/Generics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="87dac758-4728-487c-ac31-8d240f39dee2" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/Advanced/Varargs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <workItem from="1667818268536" duration="9431000" />
       <workItem from="1667833516164" duration="749000" />
       <workItem from="1667888314624" duration="690000" />
-      <workItem from="1668049737676" duration="6681000" />
+      <workItem from="1668049737676" duration="7426000" />
     </task>
     <task id="LOCAL-00001" summary="Enumeration">
       <created>1667818947340</created>
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668057246374</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Generics">
+      <created>1668062147013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668062147013</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +148,7 @@
     <MESSAGE value="File Stream" />
     <MESSAGE value="Funtional Interface and Lambda&#10;()-&gt;{}" />
     <MESSAGE value=".java --&gt; javac compiler --&gt; ByteCode(.class) --&gt;jvm" />
-    <option name="LAST_COMMIT_MESSAGE" value=".java --&gt; javac compiler --&gt; ByteCode(.class) --&gt;jvm" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
   </component>
 </project>
