@@ -2,6 +2,8 @@ package StreamApi;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -57,6 +59,61 @@ public class Driver {
         // Finding value in stream
         Boolean isValid = Stream.of(strArray).anyMatch((s)->s.equals("50"));
         System.out.println(isValid);
+
+
+        List<Integer> list2 = Arrays.asList(7,52,43,785,1,2,12,2,4,45,52);
+        // Display
+
+        list2.stream().forEach(System.out::println);
+
+        // Count of list
+
+        int count = (int)list2.stream().count();
+        System.out.println("Count: "+ count );
+
+        //sort small to high
+        List<Integer> list3 = list2.stream().sorted().collect(Collectors.toList());
+        list3.stream().forEach(System.out::println);
+
+        //sort reverse
+        List<Integer> list4 = list2.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+        list4.stream().forEach(System.out::println);
+        // Display odd numbers
+        List<Integer> list5 = list2.stream().filter(x -> x %2 ==0).sorted().collect(Collectors.toList());
+        list5.stream().forEach(System.out::println);
+
+
+        // Add all numbers by 1
+        List<Integer> list6 = list2.stream().sorted().map(x -> x+1).collect(Collectors.toList());
+        list6.stream().forEach(System.out::println);
+        System.out.println("555555555555555");
+        // Find the repeat numbers
+        List<Integer> nonRepeatNumbers =list2.stream().distinct().collect(Collectors.toList());
+
+        List<Integer> RepeatedNumbers =nonRepeatNumbers.stream().filter(x-> !list2.contains(x)).collect(Collectors.toList());
+
+
+        RepeatedNumbers.stream().forEach(System.out::println);
+
+
+        // Calculate sum of list
+
+        int sumList =list2.stream().reduce(0,(z1,z3)-> {return z1+z3;} );
+        System.out.println(a);
+        // Add 2 oll numbers and find the fourth numbers
+
+
+
+
+
+        //Lambda
+        //countries.forEach(x->{
+        //     System.out.println(x.toUpperCase());
+        // });
+        // One sentence print
+        // countries.forEach(System.out::println);
+
+        //Stream
 
 
 
